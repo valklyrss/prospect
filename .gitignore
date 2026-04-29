@@ -1,0 +1,65 @@
+# UE5 默认忽略
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# 生成的项目文件
+*.sln
+*.xcodeproj
+*.vcxproj
+*.vcxproj.filters
+Makefile
+CMakeLists.txt
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.code-workspace
+
+# 编译输出
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.a
+*.pdb
+*.obj
+*.o
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+*.cache
+
+# 操作系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 用户特定文件
+*.user
+*.userprefs
+*.suo
+*.sdf
+*.opensdf
+
+# 打包输出
+Packaged/
+Releases/
+Dist/
+
+# 大文件 (由 Git LFS 管理)
+# *.uasset
+# *.umap
+# *.fbx
+# *.png
+# *.jpg
+# *.wav
+# *.mp3
+# *.mp4
+# *.psd
